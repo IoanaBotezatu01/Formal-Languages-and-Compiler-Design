@@ -1,0 +1,41 @@
+https://github.com/cs-ubbcluj-ro/lab-work-computer-science-2024-IoanaBotezatu01/tree/main/1-Mini-Language-And-Scanner/lab2-FLCD
+
+Documentation for HashTable:
+
+constructor(__init__)
+Parameters:
+size: The number of buckets in the table.
+
+find_by_pos(self, pos)
+Purpose: This function retrieves the term (string) stored at a specific position in the hash table.
+Parameters:
+pos: A Pair object where pos.first is the bucket index and pos.second is the index inside that bucket.
+Returns: The term at that position or raises an error if the position is invalid.
+
+get_size(self)
+Purpose: This function returns the total number of buckets (size) in the hash table.
+Returns: The size of the hash table.
+
+find_position_of_elem(self, e)
+Purpose: This function finds where a specific term is located in the hash table.
+Parameters:
+term: The string you're searching for.
+Returns: A Pair object representing the position of the term (Pair(bucket_index, position_in_bucket)) or None if the term is not found.
+
+contains_elem(self, e)
+Purpose: This function checks if a specific term exists in the hash table.
+Parameters:
+term: The string to check for.
+Returns: True if the term is found, False if it's not.
+
+add(self, e)
+Purpose: This function adds a new term to the hash table if it’s not already present.
+Parameters:
+term: The string to add.
+Returns: True if the term was added, False if the term already exists in the table.
+
+hash(self, key)
+Purpose: This is a helper function that calculates the hash value of a string (term) to determine which bucket it should go into.
+Parameters:
+key: The string to hash.
+Returns: The index of the bucket where the term should be stored.
