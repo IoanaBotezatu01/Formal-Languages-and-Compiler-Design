@@ -1,0 +1,6 @@
+n <- int / insert_by_user / "Enter the number of numbers:" / / .
+sum <- 0 .
+for i in range / n / :
+nr <- int / insert_by_user / "Enter a number:" / / .
+sum <- sum + nr .
+show / "The avg is:" , sum / n / .
