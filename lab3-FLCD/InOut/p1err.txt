@@ -1,0 +1,19 @@
+a <- int / insert_by_user / "Enter the first number:" / / ;
+b <- int / insert_by_user / "Enter the second number:" / / *
+c <- int / insert_by_user / "Enter the third number:" / / *
+maxim = float / "-inf" / *
+if a >= b and a >= c :
+maxim <- a *
+if b >= a and b >= c :
+maxim <- b *
+if c >= a and c >= b :
+maxim <- c *
+minim <- float / "-inf" / *
+if a <= b and a <= c :
+minim <- a *
+if b <= a and b <= c :
+minim <- b *
+if c <= a and c <= b :
+minim <- c *
+d <- 01
+show ( "The sum is:" , maxim - minim ) *
