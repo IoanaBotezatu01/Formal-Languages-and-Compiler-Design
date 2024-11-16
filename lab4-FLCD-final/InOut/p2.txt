@@ -1,0 +1,5 @@
+a <- int / insert_by_user / "Enter the first number:" / / .
+b <- int / insert_by_user / "Enter the second number:" / / .
+sum <- a + b .
+prod <- a * b .
+show / "The result is:" , prod - sum / .
